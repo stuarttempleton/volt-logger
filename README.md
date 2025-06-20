@@ -22,10 +22,10 @@ pip install git+https://github.com/stuarttempleton/volt-logger.git
 ```python
 from voltlogger import Logger
 
-Logger.info("This is an info message.")
+Logger.log("This is an info message.")
 Logger.warn("Watch out!")
 Logger.set_log_file("run.log")
-Logger.report("This will also go to the file.")
+Logger.report("This will log to file, if a log file is specified.")
 ```
 
 ## License

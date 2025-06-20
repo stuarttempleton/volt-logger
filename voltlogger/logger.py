@@ -1,4 +1,4 @@
-# Logger.py
+# logger.py
 # 05/18/2025 - Voltur
 #
 # A logging utility that lets you print to stderr.
