@@ -17,6 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project.optional-dependencies]
+test = ["pytest"]
+
 [project.urls]
 "Homepage" = "https://github.com/stuarttempleton/volt-logger"
 "Repository" = "https://github.com/stuarttempleton/volt-logger"
