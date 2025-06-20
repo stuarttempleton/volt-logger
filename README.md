@@ -14,7 +14,7 @@ It offers basic log levels, optional timestamping, and file logging without the 
 ## Install
 
 ```bash
-pip install git+https://github.com/stuarttempleton/volt-logger.git
+pip install volt-logger
 ````
 
 ## Usage
