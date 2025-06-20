@@ -53,6 +53,7 @@ class _Logger:
         if self.log_file_handle:
             self.log_file_handle.close()
             self.log_file_handle = None
+        self.report_mode_enabled = False
 
     def describe_levels(self):
         self.help("Logger config:")
